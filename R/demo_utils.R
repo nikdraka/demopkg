@@ -1,5 +1,6 @@
 #' Calculate the logarithm of the odds of a probability
 #'
+#' @export
 #' @param p A probability (a values > 0 and less than 1)
 #' @return The logarithm (to base e) of the probability
 #' @examples

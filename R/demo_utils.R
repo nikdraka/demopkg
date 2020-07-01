@@ -6,6 +6,7 @@
 #' logit(0.5)
 #' logit(0.75)
 #' logit(0.25)
+
 logit <- function(p) {
   log(p/(1-p))
 }

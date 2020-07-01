@@ -37,7 +37,7 @@ ilogit <- function(logodds) {
 #' @import ggplot2
 
 likelihood <- function(n = 100, m = 60) {
-  data_df <- dply::tibble(x = seq(0, 1,length.out = 1000),
+  data_df <- dplyr::tibble(x = seq(0, 1,length.out = 1000),
                           y = x^m * (1-x)^(n-m))
   ggplot(data_df, aes(x = x, y = y)) + geom_line()
 }

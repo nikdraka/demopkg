@@ -1,0 +1,19 @@
+---
+title: "A demo of demopkg"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{A demo of demopkg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(demopkg)
+```

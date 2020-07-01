@@ -1,0 +1,29 @@
+Package: demopkg
+Title: A Demo Package for Demonstrating R Packages
+Version: 0.0.1
+Authors@R: c(person(given = "Kandrika",
+                    family = "Pritularga",
+                    role = c("aut", "cre"),
+                    email = "first.last@example.com"),
+            person(given = "Kan",
+                    family = "Pri",
+                    role = c("aut"),
+                    email = "first.last@example.com"))
+Description: This package does stuff. But it is just
+    a demo package, so it does not really do anything.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr (>= 1.0.0),
+    ggplot2,
+    magrittr,
+    tibble
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

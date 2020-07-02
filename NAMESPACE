@@ -3,5 +3,6 @@
 export("%>%")
 export(ilogit)
 export(likelihood)
+export(logit)
 import(ggplot2)
 importFrom(magrittr,"%>%")
